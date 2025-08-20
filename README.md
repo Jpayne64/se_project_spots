@@ -6,10 +6,14 @@ Spots is an image sharing site that is compatible with many screen sizes. Viewin
 ## Tech Stack
 . HTML
 . CSS
-. Responsive Design
+. BEM Methodology
+. Normalize.css
+. Google Fonts (Poppins)
+. Git + GitHub
+. VS Code
 
 ## Deployment
 This webpage is deployed to GitHub Pages
 
 . Deployment link: https://jpayne64.github.io/se_project_spots/
-
+. Video Link: https://drive.google.com/file/d/1zh9IBswc9wnAtI3FEhEq15Dui7jz6j61/view?usp=sharing
