@@ -1,12 +1,11 @@
 .header {
   background-color: #fff;
   padding: 10px 0;
-display: flex;
-justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .header__logo {
-width: 84px;
-height: 26px;
+  width: 84px;
+  height: 26px;
 }
