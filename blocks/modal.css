@@ -30,6 +30,7 @@
 }
 
 .modal__close-btn {
+  opacity: 0.4;
   position: absolute;
   top: 32px;
   right: 50px;
@@ -43,7 +44,7 @@
 }
 
 .modal__close-btn:hover {
-  color: #000000;
+  opacity: 1;
 }
 
 .modal__title {
