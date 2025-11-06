@@ -122,13 +122,20 @@
 }
 
 .modal__error {
-  display: block;
+  visibility: hidden;
   color: #ff0000b2;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   font-style: normal;
   margin-top: 8px;
+  height: 0;
+  transition: visibility 0.3s ease;
+}
+
+.modal__error_visible {
+  visibility: visible;
+  height: auto;
 }
 
 .modal__submit-btn {

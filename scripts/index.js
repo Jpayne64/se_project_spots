@@ -91,6 +91,18 @@ function handleOverlayClick(evt) {
   }
 }
 
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+  document.addEventListener("keydown", handleEscClose);
+  modal.addEventListener("click", handleOverlayClick);
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+  document.removeEventListener("keydown", handleEscClose);
+  modal.removeEventListener("click", handleOverlayClick);
+}
+
 function getCardElement(data) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardTitleEl = cardElement.querySelector(".card__title");
